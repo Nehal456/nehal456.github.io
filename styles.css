@@ -1,0 +1,37 @@
+/* Base Styles */
+:root {
+    --dark: #1e293b;
+    --darker: #0f172a;
+    --light: #f8fafc;
+    --lighter: #ffffff;
+    --gray: #64748b;
+    --light-gray: #e2e8f0;
+    
+    --bg-color: var(--light);
+    --text-color: var(--dark);
+    --card-bg: var(--lighter);
+    --header-bg: var(--lighter);
+    --footer-bg: var(--darker);
+    --border-color: var(--light-gray);
+    --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+header {
+    background-color: var(--header-bg);
+    box-shadow: var(--shadow);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Service Cards */
+.service-card {
+    background: var(--card-bg);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: var(--shadow);
+    transition: all 0.3s;
+}
+
+/* Add all other shared styles */

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone - Innovative IT Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        :root {
+            --primary: #3b82f6;
+            --primary-dark: #2563eb;
+            --secondary: #10b981;
+            --accent: #f59e0b;
+        }
+        
+        .hero {
+            background: linear-gradient(rgba(15, 23, 42, 0.9), url('images/hero-bg.jpg') no-repeat center center/cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="images/logo.png" alt="TechZone Logo">
+                    <h1>TechZone</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li class="dropdown">
+                        <a href="services/">Services <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="services/custom-software.html">Custom Software</a>
+                            <a href="services/cloud-solutions.html">Cloud Solutions</a>
+                            <a href="services/cybersecurity.html">Cybersecurity</a>
+                            <a href="services/mobile-apps.html">Mobile Apps</a>
+                            <a href="services/it-consulting.html">IT Consulting</a>
+                            <a href="services/data-analytics.html">Data Analytics</a>
+                        </div>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="client-portal.html" class="cta-button">Client Portal</a></li>
+                </ul>
+                <div class="mobile-menu" id="mobileMenu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate">Innovative IT Solutions for Your Business</h1>
+                <p class="animate delay-1">We provide cutting-edge technology services to help your business grow and thrive in the digital age.</p>
+                <div class="hero-buttons">
+                    <a href="services/" class="cta-button animate delay-2">Explore Services</a>
+                    <a href="contact.html" class="secondary-button animate delay-3">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>Comprehensive IT solutions tailored to your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Custom Software</h3>
+                    <p>Tailored solutions for your unique business requirements</p>
+                    <a href="services/custom-software.html" class="read-more">Learn More</a>
+                </div>
+                <!-- Other service cards similarly -->
+            </div>
+        </div>
+    </section>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
